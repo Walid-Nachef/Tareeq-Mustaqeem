@@ -9,7 +9,7 @@ class PrayerButton extends StatelessWidget {
     Key? key,
     required this.label,
     required this.isSelected,
-    required this.onTap,
+    required this.onTap, required String initial,
   }) : super(key: key);
 
   @override
